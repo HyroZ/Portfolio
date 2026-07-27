@@ -11,6 +11,10 @@
 html, body {
   margin: 0;
   min-height: 100%;
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 body {
   background: radial-gradient(circle at top, rgba(101, 90, 255, 0.2), transparent 25%),
